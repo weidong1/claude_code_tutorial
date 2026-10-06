@@ -1,0 +1,16 @@
+# --- 浏览器自动化过程产物（含文章全文/页面结构快照与日志）---
+.playwright-mcp/
+
+# --- 整页截图（与文章正文无关，占体积）---
+zhihu-editor-final.png
+
+# --- 本地 / 机器相关配置，含本机路径，不宜上传 ---
+.mcp.json
+.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+
+# --- 系统 / 编辑器 ---
+.DS_Store
